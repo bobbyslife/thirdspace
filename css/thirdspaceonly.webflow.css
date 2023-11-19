@@ -1,0 +1,163 @@
+.body {
+  background-color: #252525;
+}
+
+.container {
+  margin-bottom: 15%;
+  position: absolute;
+  top: auto;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
+}
+
+.image {
+  max-width: 4%;
+}
+
+.heading {
+  color: #969696;
+  padding-right: 20%;
+  font-family: Applegaramond, sans-serif;
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.heading._2 {
+  margin-bottom: 40px;
+}
+
+.div-block {
+  flex-direction: row;
+  display: none;
+}
+
+.button {
+  color: #969696;
+  text-transform: uppercase;
+  background-color: rgba(255, 255, 255, 0);
+  margin-right: 40px;
+  padding-left: 0;
+  padding-right: 0;
+  font-family: Inter, sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 16px;
+}
+
+.button:hover {
+  color: #494949;
+}
+
+.form {
+  max-width: 40%;
+  color: #969696;
+  font-family: Inter, sans-serif;
+}
+
+.submit-button {
+  min-width: 100%;
+  background-color: #000;
+  border: 1px solid #fff;
+  border-radius: 20px;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.text-field, .text-field-2 {
+  background-color: #969696;
+  border-radius: 3px;
+}
+
+.field-label, .field-label-2 {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.form-2 {
+  display: flex;
+}
+
+.text-field-3 {
+  border-radius: 0;
+  margin-bottom: 0;
+}
+
+.submit-button-2 {
+  height: 100%;
+  background-color: #969696;
+}
+
+.text-block {
+  text-align: left;
+}
+
+.success-message {
+  color: #969696;
+  background-color: #252525;
+  padding-left: 0;
+}
+
+.div-block-2 {
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+}
+
+.button-2 {
+  color: #000;
+  background-color: #fff;
+  border-radius: 40px;
+  margin-right: 20px;
+  padding: 10px 20px;
+}
+
+.link {
+  color: #fff;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 991px) {
+  .container {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .container {
+    margin-bottom: 30%;
+  }
+
+  .image {
+    max-width: 10%;
+  }
+
+  .heading {
+    padding-bottom: 20px;
+    line-height: 28px;
+  }
+
+  .div-block {
+    flex-direction: column;
+  }
+
+  .form {
+    max-width: 100%;
+  }
+
+  .text-block {
+    text-align: left;
+  }
+}
+
+
+@font-face {
+  font-family: 'Applegaramond';
+  src: url('../fonts/AppleGaramond.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
